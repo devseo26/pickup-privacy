@@ -46,3 +46,49 @@
 본 방침이 변경되는 경우 앱 내 공지 또는 본 페이지를 통해 안내합니다.
 
 
+# Privacy Policy
+
+**Drop-off/Pick-up Notifier (등하원 알리미)** (hereinafter referred to as the "App") values your privacy and complies with relevant laws and regulations. This policy explains what information the App collects, why it is collected, and how it is protected.
+
+**Effective Date:** July 19, 2026
+
+---
+
+## 1. Information We Collect
+
+| Item | Collection Point | Purpose |
+| :--- | :--- | :--- |
+| **Kakao Account Nickname, Profile Picture, Email** (Optional) | Upon Kakao login | User identification and displaying family members |
+| **Family Name, Child's Name** (Directly entered by the user) | Upon registering a family/child | Displaying schedules and composing notification messages |
+| **Schedule Details** (Activity name, day of the week, time, location name) | Upon registering a schedule | Providing weekly timetables and sending notifications |
+| **Device Push Token** | Upon granting notification permission | Sending pick-up/drop-off notifications |
+
+> **Note:** The App does not collect location information (GPS) and does not require sensitive personal information such as the child's legal name, contact information, or photos. Locations are stored strictly as text entered manually by the user (e.g., "Front gate of the academy").
+
+## 2. Storage and Third-Party Processing
+
+*   **Database:** Data is securely stored using encrypted connections (HTTPS) on **Supabase** (database hosting) servers.
+*   **Push Notifications:** We use **Expo Push Service** and **Google FCM (Firebase Cloud Messaging)** to deliver push notifications.
+*   **Authentication:** We use **Kakao Login** to process user authentication.
+
+*These third-party services process information in accordance with their respective privacy policies.*
+
+## 3. Information Sharing
+
+*   Your information is visible **only** to the members of your registered family group within the App.
+*   We **do not** sell or provide your personal information to any third parties, except when strictly required by law.
+
+## 4. Data Retention and Deletion
+
+*   Upon leaving a family group or deleting your account, all related personal data is deleted without delay.
+*   If you wish to request account deletion, please contact us at the email address provided below.
+
+## 5. User Rights
+
+Users may request to access, modify, or delete their personal information at any time. Additionally, users can directly edit or delete schedule details and child information through the settings menu within the App.
+
+## 6. Contact Information
+
+*   **Email:** devseo26@gmail.com
+
+If any changes are made to this Privacy Policy, we will notify you via an in-app announcement or by updating this page.
