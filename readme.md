@@ -1,15 +1,16 @@
 # 개인정보처리방침
 
-**등하원 알리미** (이하 "본 앱")는 이용자의 개인정보를 소중히 다루며, 관련 법령을 준수합니다.
+**나또픽(NaToPick)** (이하 "본 앱", 옛 이름 '등하원 알리미')는 이용자의 개인정보를 소중히 다루며, 관련 법령을 준수합니다.
 본 방침은 본 앱이 어떤 정보를 왜 수집하고 어떻게 보호하는지 설명합니다.
 
-*시행일: 2026-07-19*
+*시행일: 2026-07-19 · 개정일: 2026-11-06 (Google 로그인 추가)*
 
 ## 1. 수집하는 정보
 
 | 항목 | 수집 시점 | 목적 |
 |---|---|---|
 | 카카오 계정 닉네임·프로필 사진·이메일(선택) | 카카오 로그인 시 | 이용자 식별 및 가족 구성원 표시 |
+| Google 계정 이름·이메일·프로필 사진 | Google 로그인 시 | 이용자 식별 및 가족 구성원 표시 |
 | 가족 이름, 아이 이름(이용자가 직접 입력) | 가족/아이 등록 시 | 일정 표시 및 알림 문구 구성 |
 | 등하원 일정(활동명, 요일, 시간, 장소명) | 일정 등록 시 | 주간 시간표 제공 및 알림 발송 |
 | 기기 푸시 토큰 | 알림 권한 허용 시 | 픽업 알림 전송 |
@@ -21,7 +22,7 @@
 
 - 데이터는 Supabase(데이터베이스 호스팅) 서버에 암호화 연결(HTTPS)로 저장됩니다.
 - 푸시 알림 전송을 위해 Expo Push Service 및 Google FCM을 이용합니다.
-- 로그인 처리를 위해 카카오 로그인을 이용합니다.
+- 로그인 처리를 위해 카카오 로그인과 Google 로그인을 이용합니다.
 - 위 서비스들은 각사의 개인정보처리방침에 따라 정보를 처리합니다.
 
 ## 3. 정보의 공유
@@ -32,7 +33,8 @@
 ## 4. 정보의 파기
 
 - 가족 탈퇴 또는 계정 삭제 시 관련 정보는 지체 없이 삭제됩니다.
-- 계정 삭제를 원하시면 아래 연락처로 요청해 주세요.
+- 앱의 설정 › 계정 삭제에서 직접 지울 수 있습니다. 카카오로 가입했다면 카카오와의 연결도 함께 끊습니다.
+- 앱을 쓸 수 없다면 아래 연락처로 요청해 주세요.
 
 ## 5. 이용자의 권리
 
@@ -48,9 +50,9 @@
 
 # Privacy Policy
 
-**Drop-off/Pick-up Notifier (등하원 알리미)** (hereinafter referred to as the "App") values your privacy and complies with relevant laws and regulations. This policy explains what information the App collects, why it is collected, and how it is protected.
+**NaToPick (나또픽, formerly 'Drop-off/Pick-up Notifier')** (hereinafter referred to as the "App") values your privacy and complies with relevant laws and regulations. This policy explains what information the App collects, why it is collected, and how it is protected.
 
-**Effective Date:** July 19, 2026
+**Effective Date:** July 19, 2026 · **Revised:** November 6, 2026 (Google Sign-In added)
 
 ---
 
@@ -59,6 +61,7 @@
 | Item | Collection Point | Purpose |
 | :--- | :--- | :--- |
 | **Kakao Account Nickname, Profile Picture, Email** (Optional) | Upon Kakao login | User identification and displaying family members |
+| **Google Account Name, Email, Profile Picture** | Upon Google Sign-In | User identification and displaying family members |
 | **Family Name, Child's Name** (Directly entered by the user) | Upon registering a family/child | Displaying schedules and composing notification messages |
 | **Schedule Details** (Activity name, day of the week, time, location name) | Upon registering a schedule | Providing weekly timetables and sending notifications |
 | **Device Push Token** | Upon granting notification permission | Sending pick-up/drop-off notifications |
@@ -69,7 +72,7 @@
 
 *   **Database:** Data is securely stored using encrypted connections (HTTPS) on **Supabase** (database hosting) servers.
 *   **Push Notifications:** We use **Expo Push Service** and **Google FCM (Firebase Cloud Messaging)** to deliver push notifications.
-*   **Authentication:** We use **Kakao Login** to process user authentication.
+*   **Authentication:** We use **Kakao Login** and **Google Sign-In** to process user authentication.
 
 *These third-party services process information in accordance with their respective privacy policies.*
 
@@ -81,7 +84,8 @@
 ## 4. Data Retention and Deletion
 
 *   Upon leaving a family group or deleting your account, all related personal data is deleted without delay.
-*   If you wish to request account deletion, please contact us at the email address provided below.
+*   You can delete your account yourself in Settings › Delete account. If you signed up with Kakao, the link to your Kakao account is also removed.
+*   If you cannot use the App, please contact us at the email address provided below.
 
 ## 5. User Rights
 
